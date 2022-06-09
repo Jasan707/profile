@@ -8,11 +8,14 @@ h1 {
   height: 150px;
 }
 
+p {
+  padding: 19px;
+}
 
 body {
   font-family: 'Joan', serif;
   color: #000000;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h1, h2, h3 {
@@ -29,34 +32,36 @@ html {
   background-size: cover;
 }
 
-#btn-aqua {
-   margin: 10px;
-   padding: 15px;
+#btn {
+   margin: 20px;
+   padding: 20px;
    text-align: center;
    text-transform: uppercase;
-   background-size: 200% auto;
+   background-size: 100% auto;
    background-color: rgb(1, 4, 27);
    color: white;
    border-radius: 10px;
  }
 
- #btn-aqua:hover {
+ #btn:hover {
    background-position: right center;
-   color: #fff;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    text-decoration: none;
  }
 
  a {
    text-decoration-line: underline;
+   margin: 20px;
  }
 
  div {
-  background: white;
+
   background: linear-gradient(
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
-  padding: 32px;
+  padding: 40px;
   margin: 24px auto;
   width: 800px;
   text-align: center;
@@ -99,13 +104,13 @@ img {
   }
 }
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 960px)
 {
   div {
     width: auto;
   }
 
   p {
-    font-size: 16px;
+    font-size: 200px;
   }
 }
